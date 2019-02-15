@@ -10,7 +10,8 @@ pipeline {
                 sh 'node --version'
                 sh '''
                     npm install -g @angular/cli
-                    
+                    ng --version
+                    pwd
                 '''
             }
         }
